@@ -59,5 +59,16 @@
     "instructions": "1. Mix chicken with yogurt and 2 tbsp tikka paste. Marinate for at least 1 hour (overnight preferred).\n2. Grill or pan-fry the marinated chicken until charred and cooked through. Set aside.\n3. Heat oil in a large pan over medium heat. Fry onion until golden, about 10 minutes.\n4. Add garlic and ginger, cook for 2 minutes until fragrant.\n5. Add remaining tikka paste, cumin, coriander, turmeric and cook for 1 minute.\n6. Pour in chopped tomatoes, stir well and simmer for 15 minutes until sauce thickens.\n7. Stir in cream and add the cooked chicken. Simmer for a further 10 minutes.\n8. Season with salt and garam masala. Garnish with fresh coriander and serve with rice or naan.",
     "author": "LeeSanderson",
     "createdAt": "2024-01-17T18:00:00.000Z"
+  },
+  {
+    "id": "4c32ab02-22b0-4633-8a2f-6e269b79eb63",
+    "title": "Fish and Chips",
+    "description": "Fish and Chips",
+    "ingredients": [
+      "Fish and Chips"
+    ],
+    "instructions": "Phone Chip shop\nOrder Fish and Chips",
+    "author": "Lee",
+    "createdAt": "2026-03-31T21:23:14.788Z"
   }
 ]
