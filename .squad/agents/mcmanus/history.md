@@ -17,3 +17,8 @@
 - Vite proxy configured for `/api` → `http://localhost:5000` to avoid CORS issues in dev
 - CSS uses CSS Grid with `auto-fill / minmax(280px, 1fr)` for responsive recipe grid without media queries
 - Error and loading states handled in all data-fetching pages
+
+## Post-Spawn (2026-03-31)
+- Frontend architecture decision merged from inbox to decisions.md
+- Orchestration log recorded at `.squad/orchestration-log/2026-03-31T21-15-00Z-mcmanus-frontend.md`
+- Session log created documenting full build

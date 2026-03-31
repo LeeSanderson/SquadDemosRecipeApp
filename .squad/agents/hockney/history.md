@@ -17,3 +17,8 @@
 - Both suites snapshot and restore `recipes.json` in beforeAll/afterAll to leave seed data clean.
 - `recipe-model.test.js` also calls `jest.resetModules()` + re-requires the model in `afterEach` to prevent mutation bleed between tests.
 - **Dependency on Verbal**: tests require `index.js` to export `app` (not just call `listen`) and `models/Recipe.js` to exist with the standard CRUD interface.
+
+## Post-Spawn (2026-03-31)
+- Test strategy decision merged from inbox to decisions.md
+- Orchestration log recorded at `.squad/orchestration-log/2026-03-31T21-15-00Z-hockney-tests.md`
+- Session log created documenting full build

@@ -14,4 +14,8 @@
 - Full CRUD REST API at `/api/recipes` with validation on POST
 - Client has 4 pages (Home, RecipeList, RecipeDetail, CreateRecipe), 2 components (Navbar, RecipeCard), and a complete CSS stylesheet
 - Root README.md documents setup, structure, and API endpoints
-- Decision recorded in `.squad/decisions/inbox/keaton-architecture.md`
+
+## Post-Spawn (2026-03-31)
+- Architecture decision merged from inbox to decisions.md
+- Orchestration log recorded at `.squad/orchestration-log/2026-03-31T21-15-00Z-keaton-architecture.md`
+- Session log created documenting full build

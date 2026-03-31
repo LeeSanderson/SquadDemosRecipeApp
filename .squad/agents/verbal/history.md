@@ -16,3 +16,8 @@
 - Endpoints: GET/POST /api/recipes, GET/PUT/DELETE /api/recipes/:id, GET /api/health
 - New recipes get uuid v4 IDs; seed data uses string IDs "1", "2", "3"
 - All route handlers wrapped in try/catch for consistent error responses
+
+## Post-Spawn (2026-03-31)
+- Backend architecture decision merged from inbox to decisions.md
+- Orchestration log recorded at `.squad/orchestration-log/2026-03-31T21-15-00Z-verbal-backend.md`
+- Session log created documenting full build
