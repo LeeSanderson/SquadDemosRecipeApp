@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "title": "Classic Spaghetti Carbonara",
+    "description": "A rich and creamy Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or guanciale, diced",
+      "4 large eggs",
+      "100g Pecorino Romano, finely grated",
+      "100g Parmesan, finely grated",
+      "2 cloves garlic",
+      "Salt and freshly ground black pepper"
+    ],
+    "instructions": "1. Bring a large pot of salted water to boil and cook spaghetti until al dente.\n2. Meanwhile, fry pancetta with garlic in a large pan over medium heat until crispy. Remove garlic.\n3. Whisk eggs with most of the grated cheese in a bowl. Season generously with black pepper.\n4. Reserve a cup of pasta water, then drain spaghetti.\n5. Remove pan from heat, add hot pasta to pancetta and toss well.\n6. Pour egg mixture over pasta, tossing quickly and adding pasta water a splash at a time to create a creamy sauce.\n7. Serve immediately topped with remaining cheese and extra black pepper.",
+    "author": "LeeSanderson",
+    "createdAt": "2024-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "Chocolate Chip Cookies",
+    "description": "Golden, chewy cookies loaded with chocolate chips — a timeless classic that never disappoints.",
+    "ingredients": [
+      "225g unsalted butter, softened",
+      "200g granulated sugar",
+      "220g brown sugar, packed",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "375g all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "340g chocolate chips"
+    ],
+    "instructions": "1. Preheat oven to 190°C (375°F) and line baking sheets with parchment paper.\n2. Beat butter and both sugars together until light and fluffy, about 3-4 minutes.\n3. Add eggs one at a time, beating well after each addition. Mix in vanilla.\n4. Whisk together flour, baking soda, and salt in a separate bowl.\n5. Gradually mix the dry ingredients into the butter mixture until just combined.\n6. Fold in chocolate chips.\n7. Drop rounded tablespoons of dough onto prepared baking sheets, spacing 5cm apart.\n8. Bake for 9-11 minutes until edges are golden but centres look slightly underdone.\n9. Cool on the baking sheet for 5 minutes before transferring to a wire rack.",
+    "author": "LeeSanderson",
+    "createdAt": "2024-01-16T14:30:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "Chicken Tikka Masala",
+    "description": "Tender marinated chicken in a fragrant, creamy tomato-based sauce. A British-Indian favourite.",
+    "ingredients": [
+      "800g boneless chicken thighs, cubed",
+      "200ml plain yogurt",
+      "3 tbsp tikka masala paste",
+      "2 tbsp vegetable oil",
+      "1 large onion, finely chopped",
+      "4 cloves garlic, minced",
+      "2 tsp fresh ginger, grated",
+      "1 tsp cumin",
+      "1 tsp coriander",
+      "1 tsp turmeric",
+      "1 tsp garam masala",
+      "400g tin chopped tomatoes",
+      "200ml double cream",
+      "Salt to taste",
+      "Fresh coriander to serve"
+    ],
+    "instructions": "1. Mix chicken with yogurt and 2 tbsp tikka paste. Marinate for at least 1 hour (overnight preferred).\n2. Grill or pan-fry the marinated chicken until charred and cooked through. Set aside.\n3. Heat oil in a large pan over medium heat. Fry onion until golden, about 10 minutes.\n4. Add garlic and ginger, cook for 2 minutes until fragrant.\n5. Add remaining tikka paste, cumin, coriander, turmeric and cook for 1 minute.\n6. Pour in chopped tomatoes, stir well and simmer for 15 minutes until sauce thickens.\n7. Stir in cream and add the cooked chicken. Simmer for a further 10 minutes.\n8. Season with salt and garam masala. Garnish with fresh coriander and serve with rice or naan.",
+    "author": "LeeSanderson",
+    "createdAt": "2024-01-17T18:00:00.000Z"
+  }
+]

@@ -1,0 +1,374 @@
+/* =====================
+   Base / Reset
+   ===================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f9f9f7;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* =====================
+   Layout
+   ===================== */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* =====================
+   Navbar
+   ===================== */
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e05c2a;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #444;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #e05c2a;
+}
+
+/* =====================
+   Hero
+   ===================== */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  color: #555;
+  max-width: 540px;
+  margin: 0 auto 2rem;
+}
+
+/* =====================
+   Buttons
+   ===================== */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: #e05c2a;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #c44e22;
+}
+
+.btn-secondary {
+  background: #f0f0ec;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #e0e0db;
+}
+
+/* =====================
+   Recipe Grid
+   ===================== */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* =====================
+   Recipe Card
+   ===================== */
+.recipe-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.recipe-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.recipe-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.recipe-card p {
+  font-size: 0.9rem;
+  color: #666;
+  flex: 1;
+}
+
+.recipe-card .author {
+  font-size: 0.8rem;
+  color: #999;
+  font-style: italic;
+}
+
+/* =====================
+   Recipe Detail
+   ===================== */
+.recipe-detail {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.recipe-detail h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-detail .meta {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-detail .description {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.recipe-detail h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+  color: #1a1a1a;
+}
+
+.recipe-detail ul {
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-detail ul li {
+  margin-bottom: 0.35rem;
+  color: #444;
+}
+
+.recipe-detail .instructions {
+  white-space: pre-line;
+  color: #444;
+  line-height: 1.8;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #e05c2a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* =====================
+   Forms
+   ===================== */
+.form-page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.form-page h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 1.75rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #d5d5d5;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  background: #fff;
+  color: #1a1a1a;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #e05c2a;
+  box-shadow: 0 0 0 3px rgba(224, 92, 42, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-hint {
+  font-size: 0.78rem;
+  color: #999;
+}
+
+.form-error {
+  color: #d0021b;
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+  padding: 0.65rem 0.85rem;
+  background: #fff0f0;
+  border-radius: 6px;
+  border: 1px solid #f5c2c2;
+}
+
+/* =====================
+   Utility
+   ===================== */
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: #999;
+  font-size: 1rem;
+}
+
+.error-message {
+  text-align: center;
+  padding: 3rem;
+  color: #d0021b;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-input {
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #d5d5d5;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  min-width: 220px;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #e05c2a;
+  box-shadow: 0 0 0 3px rgba(224, 92, 42, 0.1);
+}
+
+/* =====================
+   Responsive
+   ===================== */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .recipe-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+}
